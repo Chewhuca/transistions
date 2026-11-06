@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="Y1SM+G{*4R6t3WWCz]P3" x="372" y="116"><statement name="HANDLER"><block type="Überblendungen_showTransition" id="L.RF9yj#bCn)sS@e4e3#"><field name="effect">TransitionEffect.Checkerboard</field><value name="targetImage"><block type="device_build_image" id="A$=V{!:;x*:]X^CpAcxP"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="delayMs"><shadow type="math_number_minmax" id="}#d[?@1u0F`OLr__;]S:"><mutation min="5" max="200" label="DelayMs" precision="0"></mutation><field name="SLIDER">15</field></shadow></value><next><block type="device_pause" id="E$*JnH^s8g0^5eGPV{bK"><value name="pause"><shadow type="timePicker" id="id1$NqMv}[UtQ6rhqk|c"><field name="ms">100</field></shadow></value><next><block type="Überblendungen_showTransition" id="{FiNgIcl.//:dWPIbH@j"><field name="effect">TransitionEffect.Spiral</field><value name="targetImage"><block type="device_build_image" id="x^kUfhV/wv6JEOS[*E(h"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="delayMs"><shadow type="math_number_minmax" id="s)$%PY*geHWRO-wq17k!"><mutation min="5" max="200" label="DelayMs" precision="0"></mutation><field name="SLIDER">15</field></shadow></value></block></next></block></next></block></statement></block></xml>
